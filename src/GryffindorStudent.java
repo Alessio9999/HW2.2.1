@@ -33,6 +33,7 @@ public class GryffindorStudent extends HogwartsStudent {
         return nobility + honor + bravery;
     }
 
+
     public void innerCompareWith(GryffindorStudent other) {
         if (skillsSum() > other.skillsSum()) {
             System.out.println(getName() + " лучший Гриффиндорец, чем " + other.getName());

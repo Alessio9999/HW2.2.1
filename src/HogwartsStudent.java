@@ -37,6 +37,7 @@ public class HogwartsStudent {
         }
     }
 
+
     public void compareTransgressionDistanceWith(HogwartsStudent other) {
         if (transgressionDistance > other.transgressionDistance) {
             System.out.println(name + " обладает бОльшим расстоянием трансгрессии, чем " + other.name);

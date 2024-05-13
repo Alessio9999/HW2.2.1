@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+
         GryffindorStudent garry = new GryffindorStudent(
                 "Гарри Поттер", 10, 10, 3, 7, 9);
         GryffindorStudent germiona = new GryffindorStudent(

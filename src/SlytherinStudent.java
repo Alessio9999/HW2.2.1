@@ -45,6 +45,7 @@ public class SlytherinStudent extends HogwartsStudent {
         return cunning + decisiveness + ambitiousness + resourcefulness + lustForPower;
     }
 
+
     public void innerCompareWith(SlytherinStudent other) {
         if (skillsSum() > other.skillsSum()) {
             System.out.println(getName() + " лучший Слизеринец, чем " + other.getName());
