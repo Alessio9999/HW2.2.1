@@ -38,6 +38,7 @@ public class RavenclawStudent extends HogwartsStudent{
         return intelligence + wisdom + wit + creativity ;
     }
 
+
     public void innerCompareWith(RavenclawStudent other) {
         if (skillsSum() > other.skillsSum()) {
             System.out.println(getName() + " лучший Когтевранец, чем " + other.getName());

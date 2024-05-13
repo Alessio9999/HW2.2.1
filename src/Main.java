@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+
         GryffindorStudent garry = new GryffindorStudent(
                 "Гарри Поттер", 10, 10, 3, 7, 9);
         GryffindorStudent germiona = new GryffindorStudent(
@@ -21,8 +22,8 @@ public class Main {
                 3, 4, 5);
         HufflepuffStudent cedric = new HufflepuffStudent("Седрик Диггори", 2, 3,
                 6, 7, 8);
-        HufflepuffStudent justin = new HufflepuffStudent("Джастин Финч-Флетчли", 2, 3,
-                6, 7, 8);
+        HufflepuffStudent justin = new HufflepuffStudent("Джастин Финч-Флетчли", 2, 5,
+                3, 8, 4);
 
         RavenclawStudent zhou = new RavenclawStudent("Чжоу Чанг", 2, 2, 8,
                 8,8,9);
